@@ -2,6 +2,7 @@ import time
 import pandas as pd
 import numpy as np
 
+# this section defines the inputs required and serach requirements
 
 def get_filters():
     """
