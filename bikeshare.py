@@ -2,6 +2,7 @@ import time
 import pandas as pd
 import numpy as np
 
+# this section defines the inputs required and serach requirements
 
 def get_filters():
     """
@@ -28,6 +29,7 @@ def get_filters():
     print('-'*40)
     return city, month, day
 
+# this section loads the inputs and data into a dataframe ready for analysis
 
 def load_data(city, month, day):
     """
@@ -66,6 +68,7 @@ def load_data(city, month, day):
 
     return df
 
+# the next section run and print the statistics from the data
 
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
