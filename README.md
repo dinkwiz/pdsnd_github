@@ -5,7 +5,9 @@
 Bikeshare Project for Udacity Nanodegree
 
 ### Description
-Describe what your project is about and what it does
+This project is part of the Udacity Nanodegree.
+
+It explores bikeshare data from the US.
 
 ### Files used
 Include the files used
