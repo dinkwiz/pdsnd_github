@@ -29,6 +29,7 @@ def get_filters():
     print('-'*40)
     return city, month, day
 
+# this section loads the inputs and data into a dataframe ready for analysis
 
 def load_data(city, month, day):
     """
